@@ -15,9 +15,6 @@ align-items: center;
 background-color: #0c0ce94d;
 }
 
-.title{
-    justify-content: end;
-}
 .conteiner
 {
     width:80% ;
@@ -57,16 +54,8 @@ background-color: #0c0ce94d;
     margin-bottom: 2rem;
    
     display: flex;
-    justify-content: space-between;
-
-}
-
-.long-button{
-    display: flex;
-    align-items: center;
-   
-
-
+    justify-content:space-between;
+    gap: 300px;
 }
 
 .long-button button{
