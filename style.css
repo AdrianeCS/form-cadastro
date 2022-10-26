@@ -17,15 +17,15 @@ background-color: #0c0ce94d;
 
 .conteiner
 {
-    width:80% ;
-    height: 80vh;
+    width:120% ;
+    height: 90vh;
     display: flex;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .212 );
 }
 
 .from-image
 {
-    width: 50%;
+    width: 500%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ background-color: #0c0ce94d;
 
 .form
 {
-    width: 50%;
+    width: 500%;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -51,17 +51,18 @@ background-color: #0c0ce94d;
     padding: 1-rem;
 }
 .form-heder{
-    margin-bottom: 2rem;
-   
+    margin-bottom: 1.5rem;
+    margin-top: 5px;
+
     display: flex;
     justify-content:space-between;
-    gap: 300px;
+    gap: 80px;
 }
 
 .long-button button{
     border: none;
     background-color: #6c63ff;
-    padding: 0.4rem 1rem;
+    padding: 0.4rem 1.5rem;
     border-radius: 10px;
     cursor: pointer;
 
@@ -99,3 +100,16 @@ background-color: #0c0ce94d;
     box-shadow: 1px 1px 6px #0000001c;
 }
 
+.submit-reset button{
+    order: none;
+    background-color: #6c63ff;
+    padding: 0.4rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    border: 0.1px  #6c63ff;
+}
+
+.submit-reset botton :hover{
+    background-color: #6b63fff1;
+}
