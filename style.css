@@ -98,7 +98,21 @@ background-color: #0c0ce94d;
     border-radius:10px; 
     display: block;
     box-shadow: 1px 1px 6px #0000001c;
+
 }
+
+.input-box input:hover{
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible{
+    outline: 1px solid #6c63ff;
+}
+
+.input-box input::placeholder{
+color: #000000be;
+}
+
 
 .submit-reset button{
     order: none;
@@ -108,8 +122,39 @@ background-color: #0c0ce94d;
     cursor: pointer;
     color: #fff;
     border: 0.1px  #6c63ff;
+   
 }
 
 .submit-reset botton :hover{
     background-color: #6b63fff1;
+}
+
+
+@media screen and (max-width:1330px) {
+    .from-image {
+        display: none;
+}
+.conteiner{
+    width: 150%;
+}
+ .form {
+    width: 300%;
+ }
+}
+
+
+@media screen and (max-width:750px) {
+    .conteiner {
+        width: 102%;
+        right: auto;
+    }
+
+    .input-grup {
+        flex-direction: column;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+        max-height: 40rem;
+        padding-right: 5rem;
+    }
+    
 }
