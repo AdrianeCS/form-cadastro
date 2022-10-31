@@ -113,7 +113,42 @@ background-color: #0c0ce94d;
 color: #000000be;
 }
 
+label {
+    display: block;
 
+}
+ 
+select{
+    margin: 0.3rem 0;
+    padding: 0.4rem 1.2rem;
+    border: none;
+    border-radius:10px; 
+    display: block;
+    box-shadow: 1px 1px 6px #0000001c; 
+
+}
+
+select:hover{
+    background-color: #eeeeee75;
+}
+
+select:focus-visible{
+    outline: 1px solid #6c63ff;
+
+}
+
+select::placeholder{
+    color: #000000be;
+}
+
+.textoCentralizado {
+    margin-bottom: 0;
+    text-align: center;
+}
+.flexCentral {
+    display: flex;
+    justify-content: center;
+    }
 .submit-reset button{
     order: none;
     background-color: #6c63ff;
@@ -129,8 +164,25 @@ color: #000000be;
     background-color: #6b63fff1;
 }
 
+.gender-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
 
+}
+ .gender-input{
+    display: flex;
+    align-items: center;
+ }
+.gender-input input{
+margin-right: 0,35rem;
+}
 
+.gender-input label{
+    font-size: 0.81;
+    
+}
 
 @media screen and (max-width:1330px) {
     .from-image {

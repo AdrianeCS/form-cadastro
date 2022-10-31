@@ -27,7 +27,17 @@
                 <div class="input-box">
                     <label for="name">Nome completo:</label>
                     <input id= name type="text" name="name" placeholder="Digite seu nome" required>
-              
+
+        <div>
+            <label for="estadoCivil">Estado civil:</label>
+            <select  name="estadoCivil" id="estadoCivil" required>
+                <option value="">Selecione seu estado civil</option>
+                <option value="1">Solteiro(a)</option>
+                <option value="2">Casado(a)</option>
+                <option value="3">Divorciado(a)</option>
+                <option value="4">Viúvo(a)</option>
+                <option value="5">Separado(a)</option>
+            </select>
          <div class="input-box">
                     <label for="emailUsuario">Email:</label>
                     <input type="email" name="emailUsuario" id="emailUsuario" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Ex:larissa21@gmail.com" required>
@@ -56,15 +66,14 @@
                     <label for="estadoUsuario">Estado:</label>
                     <input name="estadoUsuario" id="estadoUsuario" placeholder="Ex: SP">
                
-                    <div class="input-box">
-                        <label for="estadoCivil">Estado civil:</label>
-                        <input type="text" name="estadoCivil" id="estadoCivil"   required>
+                    
                         
-                        
-                <div class="input-box">
-                    <label for="liEconcordo">Li e concordo:</label>
-                    <input type="checkbox" name="liEconcordo" id="liEconcordo" required>
-                    </div>
+                        <div class="input-box">
+                            <label for="liEconcordo">Li e concordo:</label>
+                            <input type="checkbox" name="liEconcordo" id="liEconcordo" required>
+                            </div>
+        
+                
                     
         </div>
         <div  class ="submit-reset" >
